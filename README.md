@@ -1,4 +1,4 @@
-# Resume
+# Resume project
 ### Project objectives
 - Demonstrate basic comprehension of HTML syntax
 - Demonstrate basic comprehension of CSS syntax
