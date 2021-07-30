@@ -1,6 +1,7 @@
 
 body{
     background-color: dimgray;
+    font-family: 'Courier New', Courier, monospace;
 }
 h1{
     background-color: orange;
@@ -9,31 +10,44 @@ h1{
 h4{
     background-color: orange;
     margin-top: 0px;
+    border-radius: 25px;
 }
 .gridMaster{
+    background-color:black;
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 80px, auto, auto;
-    background-color:blueviolet;
-    row-gap: 20px;
+
+    row-gap: 15px;
     column-gap: 10px;
+    border-radius: 25px;
 }
 .gridMaster > div{
-    background-color: brown;
+    /*background-color: lightgrey;*/
+    font-weight: bold;
+    border-radius: 25px;
 }
 .ContactInfo{
+    background-color: orange;
+    border: 5px solid black;
     grid-column: 1/ span 4;
 }
 .Experience{
+    background-color: lightgrey;
+    border: 5px solid orange;
     grid-column: 1/ span 3;
     grid-row: 2;
 }
 .Skills{
+    background-color: lightgrey;
+    border: 5px solid orange;
     text-align: center;
 }
 .Education{
+    background-color: lightgrey;
+    border: 5px solid orange;
     grid-row: 3;
-    grid-column: 2/ 3;
+    grid-column: 2/ span 2;
     text-align: center;
 }
 /*.Experience{
