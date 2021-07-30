@@ -1,0 +1,48 @@
+
+body{
+    background-color: dimgray;
+}
+h1{
+    background-color: orange;
+    margin-bottom: 0px;
+}
+h4{
+    background-color: orange;
+    margin-top: 0px;
+}
+.gridMaster{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 80px, auto, auto;
+    background-color:blueviolet;
+    row-gap: 20px;
+    column-gap: 10px;
+}
+.gridMaster > div{
+    background-color: brown;
+}
+.ContactInfo{
+    grid-column: 1/ span 4;
+}
+.Experience{
+    grid-column: 1/ span 3;
+    grid-row: 2;
+}
+.Skills{
+    text-align: center;
+}
+.Education{
+    grid-row: 3;
+    grid-column: 2/ 3;
+    text-align: center;
+}
+/*.Experience{
+    float: left;
+}
+.Skills{
+    float: right;
+}
+.Education{
+    float: left;
+}
+>*/
