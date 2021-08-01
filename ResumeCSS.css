@@ -30,6 +30,12 @@ h4{
     margin-top: 0px;
     font-size: 20px;
 }
+#cornerImage{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
 #ContactInfo{
     background-color: rgb(253,88,0);
     border: 5px solid black;
