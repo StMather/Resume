@@ -5,26 +5,46 @@ body{
     /*background-color: dimgray;*/
     font-family: 'Courier New', Courier, monospace;
 }
+a:link, a:visited{
+    color: black;
+    background-color: rgb(253,88,0);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+a:hover, a:active{
+    background-color: black;
+    color: rgb(253,88,0);
+    border: 2px solid rgb(253,88,0);
+}
 h1{
     background-color: rgb(253,88,0);
     margin-bottom: 0px;
+    font-size: 50px;
+    
 }
 h4{
     background-color: rgb(253,88,0);
     margin-top: 0px;
+    font-size: 20px;
 }
-.ContactInfo{
+#ContactInfo{
     background-color: rgb(253,88,0);
-    /*border: 5px solid black;
-    grid-column: 1/ span 4;
+    border: 5px solid black;
+    border-radius: 20px;
+    /*grid-column: 1/ span 4;
     */
     position: sticky;
+    left: 12%;
     top:0;
     text-align: center;
+    width: 75%;
     
 }
 .gridMaster{
-    background-color:black;
+    /*background-color:black;*/
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 80px, auto, auto;
@@ -32,27 +52,26 @@ h4{
     /*row-gap: 15px;*/
     column-gap: 10px;
     border-radius: 25px;
-    
 }
 .gridMaster > div{
     /*background-color: lightgrey;*/
     font-weight: bold;
     border-radius: 25px;
 }
-.Skills{
+#Skills{
     background-color: lightgrey;
     border: 5px solid rgb(253,88,0);
     grid-column: 4/ span 4;
     grid-row: 2;
     text-align: center;
 }
-.Experience{
+#Experience{
     background-color: lightgrey;
     border: 5px solid rgb(253,88,0);
     grid-column: 1/ span 3;
     grid-row: 2;
 }
-.Education{
+#Education{
     background-color: lightgrey;
     border: 5px solid rgb(253,88,0);
     grid-row: 3;
